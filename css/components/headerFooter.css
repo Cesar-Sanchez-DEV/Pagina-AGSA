@@ -1,0 +1,158 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.nav .logo img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    object-fit: contain;
+}
+.nav .navbar ul{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.nav .navbar ul li{
+    font-weight: 500;
+    padding: 0px 20px;
+}
+.nav .navbar ul li a{
+    color: var(--colorPrincipal);
+}
+.nav .btnContact{
+    background-color: var(--colorPrincipal);
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.nav .btnContact a{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+footer{
+    background-color: var(--colorPrincipal);
+}
+.footer{
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .desciptionEmpresa{
+    width: 25%;
+}
+.footer .desciptionEmpresa img{
+    height: 70px;
+    width: 170px;
+}
+.footer .desciptionEmpresa p{
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.footer .desciptionEmpresa .iconosRedes ul{
+    display: flex;
+    margin-top: 20px;
+}
+.footer .desciptionEmpresa .iconosRedes ul li{
+    border: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+.footer .desciptionEmpresa .iconosRedes ul li a i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.footer .contacto h3{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.footer .contacto .contentContacto ul{
+    margin-top: 10px;
+}
+.footer .contacto .contentContacto ul li{
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+}
+.footer .contacto .contentContacto ul li i{
+    color: var(--colorIconosFooter);
+    width: 20px;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.footer .contacto .contentContacto ul li p, .footer a{
+    font-weight: 300;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer .proyectos h3{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.footer .proyectos .contentProyectos ul{
+    margin-top: 10px;
+}
+.footer .proyectos .contentProyectos ul li{
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+}
+.footer .proyectos .contentProyectos ul li i{
+    color: var(--colorIconosFooter);
+    font-size: 7px;
+    margin-right: 10px;
+}
+.footer .proyectos .contentProyectos ul li p{
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.footer .productos{
+    display: flex;
+    flex-direction: column;
+}
+.footer .productos h3{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.footer .productos .contentProductos ul{
+    margin-top: 10px;
+}
+.footer .productos .contentProductos ul li{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+.footer .productos .contentProductos ul li i{
+    color: var(--colorIconosFooter);
+    font-size: 7px;
+    margin-top: 10px;
+    margin-right: 10px;    
+}
+.footer .productos .contentProductos ul li p{
+    font-weight: 300;
+    color: #FFFFFF;
+}
